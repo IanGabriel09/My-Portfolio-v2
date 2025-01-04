@@ -74,10 +74,11 @@ input {
     height: auto;     
     background-color: #f8f9fa; 
     padding-top: 90px;
-    padding-left: 30px;
+    padding-left: 15px;
     z-index: 2;      
     transition: right 0.3s ease;
 }
+
 
 .side-menu.open {
     right: 0;         
