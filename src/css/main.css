@@ -79,7 +79,6 @@ input {
     transition: right 0.3s ease;
 }
 
-
 .side-menu.open {
     right: 0;         
 }
