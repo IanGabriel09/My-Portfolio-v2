@@ -188,8 +188,13 @@ body {
 }
 
 /* Skills */
-.skills-card {
+.works-card {
     height: 100% !important;
+}
+
+.works-card .img-fluid {
+    height: 300px !important;
+    width: auto;
 }
 
 /* contact */
@@ -255,6 +260,9 @@ body {
 .heading {
     position: relative;
     display: inline-block;
+}
+.shadow-custom {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px !important;
 }
 
 .heading::after {
