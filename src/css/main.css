@@ -188,14 +188,38 @@ body {
 }
 
 /* Skills */
+/* Base: mobile-first */
 .works-card {
-    height: 100% !important;
+    height: 500px !important; /* adjust as needed */
+}
+
+/* Tablets */
+@media (min-width: 768px) {
+    .works-card {
+        height: 480px;
+    }
+}
+
+/* Laptops / small desktops */
+@media (min-width: 992px) {
+    .works-card {
+        height: 520px;
+    }
+}
+
+/* Large desktops / wide screens */
+@media (min-width: 1200px) {
+    .works-card {
+        height: 600px !important;
+    }
 }
 
 .works-card .img-fluid {
-    height: 300px !important;
-    width: auto;
+    height: 180px; /* keep thumbnails uniform */
+    width: 100%;
+    object-fit: cover;
 }
+
 
 /* contact */
 
